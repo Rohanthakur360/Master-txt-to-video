@@ -36,7 +36,7 @@ bot = Client(
 
 @bot.on_message(filters.command(["start"]))
 async def account_login(bot: Client, m: Message):
-    editable = await m.reply_text("BOT MADE BY - ꧁𓊈𒆜🅲🆁🅰🆉🆈_🅼🅸🅽🅳𒆜𓊉꧂\n\n I am a Bot For Download Links From Your **TXT** File And Then Upload That File On Telegram So Basically If You Want To Use Me First Send Me /upload Command And Then Follow Few Steps.")
+    editable = await m.reply_text("BOT MADE BY - 𓊈𒆜🅲🆁🅰🆉🆈_🅼🅸🅽🅳𒆜𓊉\n\n I am a Bot For Download Links From Your **TXT** File And Then Upload That File On Telegram So Basically If You Want To Use Me First Send Me /upload Command And Then Follow Few Steps.")
 
 
 @bot.on_message(filters.command("stop"))
@@ -115,7 +115,7 @@ async def account_login(bot: Client, m: Message):
     else:
         MR = raw_text3
    
-    await editable.edit("Now send the Thumb url/nEg » https://telegra.ph/file/1bf523c4b51530e57e84d.jpg \n Or if don't want thumbnail send = no")
+    await editable.edit("Now send the Thumb url/nEg » https://graph.org/file/9b32b37404eb4c2a36bf3.jpg \n Or if don't want thumbnail send = no")
     input6 = message = await bot.listen(editable.chat.id)
     raw_text6 = input6.text
     await input6.delete(True)
