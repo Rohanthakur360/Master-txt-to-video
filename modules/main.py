@@ -36,7 +36,7 @@ bot = Client(
 
 @bot.on_message(filters.command(["start"]))
 async def account_login(bot: Client, m: Message):
-    editable = await m.reply_text("BOT MADE BY - 𓊈𒆜🅲🆁🅰🆉🆈_🅼🅸🅽🅳𒆜𓊉\n\n I am a Bot For Download Links From Your **TXT** File And Then Upload That File On Telegram So Basically If You Want To Use Me First Send Me /upload Command And Then Follow Few Steps.")
+    editable = await m.reply_text("BOT MADE BY - 𓊈𒆜🅲🆁🅰🆉🆈_🅼🅸🅽🅳𒆜𓊉\n\n I am a Bot For Download Links From Your **TXT** File And Then Upload That File On Telegram")
 
 
 @bot.on_message(filters.command("stop"))
