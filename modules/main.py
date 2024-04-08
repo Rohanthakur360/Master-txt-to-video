@@ -150,7 +150,7 @@ async def account_login(bot: Client, m: Message):
 
             elif '/master.mpd' in url:
              id =  url.split("/")[-2]
-             url =  "https://psitoffers.store/testkey.php?vid=" + id 
+             url =  "https://psitoffers.store/testkey.php?vid=" + id + "&quality=" + "raw_text2"
 
             name1 = links[i][0].replace("\t", "").replace(":", "").replace("/", "").replace("+", "").replace("#", "").replace("|", "").replace("@", "").replace("*", "").replace(".", "").replace("https", "").replace("http", "").strip()
             name = f'{str(count).zfill(3)}) {name1[:60]}'
